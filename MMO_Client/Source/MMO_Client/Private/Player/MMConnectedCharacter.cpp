@@ -11,6 +11,7 @@
 
 AMMConnectedCharacter::AMMConnectedCharacter()
 {
+	bReplicates = true;
 	PrimaryActorTick.bCanEverTick = true;
 	// configure your base API path
 	PathToAPI = "http://localhost:8081/";
